@@ -1,9 +1,9 @@
 // ============================================
 // EDITOR DE IMÁGENES CON ÁLGEBRA MATRICIAL
 // ============================================
-// Nombre del estudiante: ___test de prueba
-// Fecha: _________________
-// Grupo: _________________
+// Nombre del estudiante: Jorge Emilio Batun Alcocer 
+// Fecha: 18/11/2025
+// Grupo: 1B
 
 const { PNG } = require('pngjs');
 const fs = require('fs');
