@@ -2,9 +2,9 @@
 
 ## 👨‍💻 Información del Estudiante
 
-- **Nombre:** [Tu nombre completo]
-- **Matrícula:** [Tu matrícula]
-- **Grupo:** [A/B/C]
+- **Nombre:** [Jorge Emilio Batun Alcocer]
+- **Matrícula:** [SW2509055]
+- **Grupo:** [B]
 - **Cuatrimestre:** Primer Cuatrimestre
 - **Carrera:** TSU en Desarrollo e Innovación de Software
 - **Profesor:** Jorge Javier Pedrozo Romero
@@ -230,8 +230,8 @@ git log --oneline --graph --decorate
 
 ## 📧 Contacto
 
-- **Email Institucional:** [tu-correo@institucional.edu.mx]
-- **GitHub:** [@TU-USUARIO](https://github.com/TU-USUARIO)
+- **Email Institucional:** [jorge.batun@tecdesoftware.edu.mx]
+- **GitHub:** [@EmilioTSW](https://github.com/EmilioTSW)
 
 ---
 
@@ -245,6 +245,6 @@ Este proyecto es parte de las actividades académicas del **Tecnológico de Soft
 
 **⭐ Si te gustó este proyecto, dale una estrella ⭐**
 
-Hecho con 💙 por [Tu Nombre] - 2025
+Hecho con 💙 por [Jorge Emilio Batun Alcocer] - 2025
 
 </div>
