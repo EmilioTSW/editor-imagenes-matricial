@@ -1,7 +1,7 @@
 // ============================================
 // EDITOR DE IMÁGENES CON ÁLGEBRA MATRICIAL
 // ============================================
-// Nombre del estudiante: _________________
+// Nombre del estudiante: ___test de prueba
 // Fecha: _________________
 // Grupo: _________________
 
