@@ -437,9 +437,14 @@ function voltearHorizontal(matriz) {
  * const invertido = voltearVertical(matriz);
  */
 function voltearVertical(matriz) {
-  // TODO: Implementar volteo vertical
-  
-  return []; // REEMPLAZAR
+  const resultado = copiarMatriz(matriz);
+
+  // Invertir el orden de las filas
+  resultado.reverse();
+
+  return resultado;
+
+ 
 }
 
 /**
