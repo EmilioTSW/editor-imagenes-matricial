@@ -146,6 +146,46 @@ function matrizAImagen(matriz, rutaSalida) {
   // fs.writeFileSync(rutaSalida, buffer);
   
   // ESCRIBE TU CÓDIGO AQUÍ
+
+   validarMatriz(matriz);
+
+  // 2. Obtener dimensiones
+  const dims = obtenerDimensiones(matriz);
+  // dims debe tener: { filas, columnas }
+
+  // 3. Crear el PNG
+  const png = new PNG({
+    width: dims.columnas,
+    height: dims.filas
+  });
+
+  // 4. Llenar png.data
+  for (let y = 0; y < dims.filas; y++) {
+    for (let x = 0; x < dims.columnas; x++) {
+      const idx = (dims.columnas * y + x) << 2; // * 4
+      const pixel = matriz[y][x];
+
+      // Por si acaso, aseguramos que existan los valores
+      const r = pixel.r ?? 0;
+      const g = pixel.g ?? 0;
+      const b = pixel.b ?? 0;
+      const a = pixel.a ?? 255;
+
+      png.data[idx]     = limitarValorColor(r);
+      png.data[idx + 1] = limitarValorColor(g);
+      png.data[idx + 2] = limitarValorColor(b);
+      png.data[idx + 3] = limitarValorColor(a);
+    }
+  }
+
+  // 5. Asegurar que existe el directorio de salida
+  asegurarDirectorio(path.dirname(rutaSalida));
+
+  // 6. Guardar el archivo
+  const buffer = PNG.sync.write(png);
+  fs.writeFileSync(rutaSalida, buffer);
+
+
 }
 
 /**
