@@ -29,7 +29,7 @@ const {
   transponerMatriz
 } = require('./matriz');
 
-// ============================================
+// ============================================.
 // SECCIÓN 1: FUNDAMENTOS (20 puntos)
 // Conversión entre imágenes y matrices
 // ============================================
@@ -146,7 +146,7 @@ function matrizAImagen(matriz, rutaSalida) {
   // fs.writeFileSync(rutaSalida, buffer);
   
   // ESCRIBE TU CÓDIGO AQUÍ
-
+  
    validarMatriz(matriz);
 
   // 2. Obtener dimensiones
@@ -184,6 +184,7 @@ function matrizAImagen(matriz, rutaSalida) {
   // 6. Guardar el archivo
   const buffer = PNG.sync.write(png);
   fs.writeFileSync(rutaSalida, buffer);
+
 
 
 }
